@@ -12,8 +12,8 @@
     <title>AGENCY - Theme Preview</title>
 </head>
 
-<body>
-
+<body >
+    
     <section class="back-image">
         <nav class="fixed-top navbar navbar-expand-lg navbar-dark bg-light nav-transparent" id="myNav"
             style=" padding-top:1rem;">
@@ -29,19 +29,19 @@
 
                     <ul class="navbar-nav ml-auto nav-bar">
                         <li class="nav-item">
-                            <a class="nav-link" href="#footer">Services</a>
+                            <a class="nav-link active" href="#services">Services</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#pricing">Portfolio</a>
+                            <a class="nav-link" href="#portfolio">Portfolio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#cta">About</a>
+                            <a class="nav-link" href="#about">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#pricing">Team</a>
+                            <a class="nav-link" href="#team">Team</a>
                         </li>
                         <li class="nav-item" style="padding-right: 2.5rem !important;">
-                            <a class="nav-link" href="#cta">Contact</a>
+                            <a class="nav-link" href="#contact-me">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -56,7 +56,7 @@
             <a class="btn btn-primary btn-xl text-uppercase" href="#services">Tell Me More</a>
         </div>
     </section>
-
+    <div data-bs-spy="scroll" data-bs-target="#myNav">
     <section id="services">
         <div class="container">
             <div class="text-center">
@@ -129,15 +129,20 @@
                 <div class="row text-center" style="padding-top: 30px; display:flex; justify-content:center;">
                     <div class="col-lg-4 charu-class col-md-6 col-12" style="justify-content: center;">
                         <div class="portfolio-item">
-                            <div class="abcdef">
-                                <a href="#threadmodal" data-bs-toggle="modal">
-                                    <img class="portfolio-image" src="images/threads.jpg" alt=""></a>
+                                    <div class="image-container">
+                                        <img class="portfolio-image" src="images/threads.jpg" alt="">
+                                        <div class="after">
+                                            <a href="#threadmodal" data-bs-toggle="modal"> <i class="fa fa-plus fa-5x text-white" style="text-decoration: none;"></i>
+                                        </a>
+                                            
+                                        </div>
+                                    </div>
+                                    
                                 <!-- <div class="overlay">
                                         <div class="my-plus-icon">
                                             <i class="fa fa-plus fa-4x"></i>
                                         </div>
                                     </div> -->
-                            </div>
                             <div class="portfolio-caption">
                                 <h4 class="sec-sub-heading">Threads</h4>
                                 <p class="text-muted sec-sub-text">Illustration</p>
@@ -260,7 +265,7 @@
         </div>
     </div>
 
-    <section class="team" style="padding-top: 50px; padding-bottom: 50px">
+    <section class="team" style="padding-top: 50px; padding-bottom: 50px" id="team">
         <div class=container>
             <div class="text-center">
                 <h2
@@ -440,7 +445,7 @@
             </div>
         </div>
     </section>
-
+</div>
 
 
 

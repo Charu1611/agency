@@ -6,6 +6,9 @@
 .nav-link:hover{
     color: #ffc800 !important;
 }
+.nav-link .active{
+    color: #ffc800 !important;
+}
 .nav-item{
     padding-left: 0.5rem !important;
     padding-right: 0.5rem;
@@ -170,4 +173,24 @@
     width: 105px;
     text-align: center;
     vertical-align: middle;
+}
+.image-container {
+    position: relative;
+    /* width: 200px;
+    height: 300px; */
+}
+.image-container .after {
+    position: absolute;             
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    color: #FFF;
+}
+.image-container:hover .after {
+    display: flex;
+    background: rgba(255, 200, 0, .9);
+    align-items: center;
+    justify-content: center;
 }
