@@ -19,6 +19,7 @@
     padding-bottom: 12.5rem;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
 .welcome-text{
     font-size: 2.25rem;
@@ -57,8 +58,6 @@
 }
 .nav-bar{
     text-transform: uppercase !important;
-    padding-top:1.5rem !important;
-    padding-bottom:1.5rem !important;
 }
 #services{
     padding: 6rem;
@@ -137,11 +136,38 @@
     display: flex;
     align-items: center;
 }
-.foot-my{
+/* .foot-my{
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.my-link-sec{
+} */
+.my-lin-sec{
     text-decoration: none !important;
+    margin-right: 12px;
+}
+/* .overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: 0.5s ease;
+    background-color: #ffc800;
+}
+.abcdef:hover .overlay{
+    opacity: 1;
+}
+.my-plus-icon{
+    color: white;
+    text-align: center;
+
+} */
+.fa{
+    height: 105px;
+    width: 105px;
+    text-align: center;
+    vertical-align: middle;
 }
